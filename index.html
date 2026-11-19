@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EcoTopCT: informação prática para o descarte consciente de resíduos em Cidade Tiradentes.">
+  <meta name="theme-color" content="#0c302d">
+  <link rel="icon" href="assets/logomarca.png">
+  <link rel="stylesheet" href="style.css">
+  <title>EcoTopCT | Descarte consciente em Cidade Tiradentes</title>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <nav class="nav shell" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="EcoTopCT — início">
+        <img src="assets/logomarca.png" alt="">
+        <span>Eco<span>Top</span>CT</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="menu-principal">
+        <a href="#sobre">Por que importa</a>
+        <a href="#guia">Guia de descarte</a>
+        <a href="#participe">Faça parte</a>
+        <a class="nav-cta" href="#guia">Começar agora <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow light"><span></span> Cidade Tiradentes em movimento</p>
+          <h1 id="titulo-principal">O descarte certo <em>começa perto</em> da gente.</h1>
+          <p class="hero-text">Informação simples para transformar resíduos em cuidado com a saúde, o ambiente e o nosso território.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#guia">Ver o guia de descarte <span aria-hidden="true">↓</span></a>
+            <a class="text-link light-link" href="#sobre">Entenda o impacto <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-sun"></div>
+          <div class="hero-logo-wrap"><img src="assets/logomarca.png" alt=""></div>
+          <div class="hero-line line-a"></div><div class="hero-line line-b"></div><div class="hero-line line-c"></div>
+          <div class="hero-note note-top">cuidar do território</div>
+          <div class="hero-note note-bottom">começa no dia a dia</div>
+          <div class="recycle-mark">↻</div>
+        </div>
+      </div>
+      <div class="shell hero-bottom" aria-label="Princípios do EcoTopCT">
+        <p>Menos resíduos nas ruas</p><i></i><p>Mais saúde e prevenção</p><i></i><p>Reciclagem que gera valor</p>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="shell section-heading split-heading">
+        <div>
+          <p class="eyebrow"><span></span> Por que isso importa</p>
+          <h2 id="titulo-sobre">Cuidar do descarte é cuidar de <em>todo mundo.</em></h2>
+        </div>
+        <p class="section-intro">Não existe “jogar fora”: tudo continua no planeta. Quando cada resíduo tem o destino adequado, a cidade fica mais saudável, segura e sustentável.</p>
+      </div>
+
+      <div class="shell benefits-grid">
+        <article class="benefit-card benefit-featured">
+          <span class="card-number">01</span>
+          <div class="icon-badge" aria-hidden="true">✦</div>
+          <h3>Saúde pública</h3>
+          <p>Reduz focos de insetos e roedores e ajuda a proteger a água e o solo.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="card-number">02</span>
+          <div class="icon-badge" aria-hidden="true">⌁</div>
+          <h3>Menos enchentes</h3>
+          <p>Resíduos fora de bueiros e bocas de lobo ajudam a água da chuva a circular.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="card-number">03</span>
+          <div class="icon-badge" aria-hidden="true">◒</div>
+          <h3>Ambiente preservado</h3>
+          <p>Diminui a poluição e reduz a pressão sobre recursos naturais e aterros.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="card-number">04</span>
+          <div class="icon-badge" aria-hidden="true">↗</div>
+          <h3>Renda e trabalho</h3>
+          <p>Fortalece o trabalho de catadores e cooperativas e movimenta a reciclagem.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="card-number">05</span>
+          <div class="icon-badge" aria-hidden="true">✓</div>
+          <h3>Mais segurança</h3>
+          <p>Protege quem coleta ao evitar acidentes com vidro, agulhas e outros cortantes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section guide" id="guia" aria-labelledby="titulo-guia">
+      <div class="shell guide-layout">
+        <div class="guide-header">
+          <p class="eyebrow"><span></span> Guia rápido</p>
+          <h2 id="titulo-guia">Seu resíduo tem <em>um próximo passo.</em></h2>
+          <p>Escolha um tipo de material para ver uma orientação prática antes de descartá-lo.</p>
+          <div class="material-selector" role="group" aria-label="Tipo de resíduo">
+            <button class="material-button is-selected" type="button" data-material="reciclaveis" aria-pressed="true">Recicláveis</button>
+            <button class="material-button" type="button" data-material="organicos" aria-pressed="false">Orgânicos</button>
+            <button class="material-button" type="button" data-material="cortantes" aria-pressed="false">Cortantes</button>
+            <button class="material-button" type="button" data-material="outros" aria-pressed="false">Outros itens</button>
+          </div>
+        </div>
+
+        <article class="guide-result" aria-live="polite">
+          <div class="result-symbol" id="result-symbol" aria-hidden="true">♻</div>
+          <p class="result-label" id="result-label">Papel, plástico, vidro e metal</p>
+          <h3 id="result-title">Separe os recicláveis</h3>
+          <p id="result-text">Mantenha papel, plástico, vidro e metal separados dos orgânicos. Assim, o material pode seguir para a coleta seletiva e a reciclagem.</p>
+          <div class="result-tip"><span aria-hidden="true">✦</span><p id="result-tip">Procure informações de coleta seletiva com associações, ONGs ou órgãos públicos da sua região.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section routine" aria-labelledby="titulo-rotina">
+      <div class="shell routine-grid">
+        <div class="routine-title">
+          <p class="eyebrow"><span></span> Ação cotidiana</p>
+          <h2 id="titulo-rotina">Um hábito de cada vez já <em>muda o caminho.</em></h2>
+          <p>Marque as atitudes que você quer colocar em prática. Seu progresso fica apenas neste dispositivo.</p>
+        </div>
+        <div class="checklist" data-checklist>
+          <label class="check-item"><input type="checkbox" data-habit="separar"><span class="custom-check" aria-hidden="true"></span><span>Separar orgânicos, recicláveis e rejeitos.</span></label>
+          <label class="check-item"><input type="checkbox" data-habit="compostar"><span class="custom-check" aria-hidden="true"></span><span>Considerar a compostagem para os resíduos orgânicos.</span></label>
+          <label class="check-item"><input type="checkbox" data-habit="embalar"><span class="custom-check" aria-hidden="true"></span><span>Embalar e sinalizar vidro quebrado e itens cortantes.</span></label>
+          <label class="check-item"><input type="checkbox" data-habit="buscar"><span class="custom-check" aria-hidden="true"></span><span>Buscar orientação local antes de descartar itens especiais.</span></label>
+          <p class="progress-message" id="progress-message" aria-live="polite">Escolha uma ação para começar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section participate" id="participe" aria-labelledby="titulo-participe">
+      <div class="shell participate-card">
+        <div>
+          <p class="eyebrow light"><span></span> Faça parte</p>
+          <h2 id="titulo-participe">Sustentabilidade se constrói em <em>rede.</em></h2>
+          <p>Converse com vizinhos, escolas, associações e iniciativas locais. Compartilhar informação é um jeito concreto de mobilizar o território.</p>
+        </div>
+        <div class="participate-action">
+          <button class="button button-primary copy-button" type="button" data-copy-text="Olá! Conheci o EcoTopCT e quero colaborar com o descarte consciente em Cidade Tiradentes. Podemos conversar sobre iniciativas locais de reciclagem e sustentabilidade?">Copiar mensagem para compartilhar <span aria-hidden="true">↗</span></button>
+          <p id="copy-feedback" class="copy-feedback" aria-live="polite">Use a mensagem para iniciar uma conversa na sua rede.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" aria-labelledby="titulo-faq">
+      <div class="shell faq-grid">
+        <div>
+          <p class="eyebrow"><span></span> Perguntas frequentes</p>
+          <h2 id="titulo-faq">Dúvidas comuns, <em>respostas diretas.</em></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Por que separar os resíduos?</summary>
+            <p>A separação facilita o reaproveitamento de recicláveis e evita que materiais inadequados contaminem os demais. Também ajuda quem trabalha com a coleta e a triagem.</p>
+          </details>
+          <details>
+            <summary>O que fazer com vidro quebrado?</summary>
+            <p>Coloque-o em um recipiente firme, feche bem e sinalize o conteúdo. Isso reduz o risco de cortes e acidentes durante a coleta e o manuseio.</p>
+          </details>
+           <details>
+            <summary>Como descartar residuos perfuro contaminantes?</summary>
+            <p>Em casa quando fazemos uso de agulhas e objetos que contenham material contaminate, devem ser embalados com cuidado e descartados em UBS orientado pela equipe de enfermagem o local correto de descarte</p>
+          </details>
+          <details>
+            <summary>Onde encontro informações sobre coleta seletiva?</summary>
+            <p>Procure associações, ONGs e órgãos públicos que atuem na sua região para confirmar como e onde entregar cada material.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-top">
+      <a class="brand footer-brand" href="#inicio" aria-label="Voltar ao início">
+        <img src="assets/logomarca.png" alt=""><span>Eco<span>Top</span>CT</span>
+      </a>
+      <p>Informação e mobilização pelo descarte consciente em Cidade Tiradentes.</p>
+      <a class="back-to-top" href="#topo">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="shell footer-bottom"><p>© <span id="current-year">2026</span> EcoTopCT</p><p>Feito para cuidar do território.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
